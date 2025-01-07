@@ -15,6 +15,7 @@ class Controller extends GetxController {
         curdModelData.value = curdData; 
       } else {
         Get.snackbar("No Data", "No data available at the moment.");
+        
       }
     } catch (e) {
       Get.snackbar("Error", "Failed to fetch data: $e");
